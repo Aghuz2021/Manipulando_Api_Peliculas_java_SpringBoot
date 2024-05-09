@@ -1,31 +1,27 @@
 # Manipulando_Api_Peliculas_java_SpringBoot
 # Resumen del Proyecto
 
-Este repositorio contiene un proyecto desarrollado en Java utilizando el framework Spring. A continuación se presenta un resumen de los principales conceptos y funcionalidades abordados en el proyecto:
+Este repositorio contiene un proyecto desarrollado en Java utilizando el framework Spring. 
 
-## Estructura de un Proyecto Spring
+Este sistema es una aplicación de línea de comandos que permite al usuario buscar información sobre una serie de televisión utilizando una API externa y realizar diversas operaciones con los datos obtenidos. Aquí está una explicación detallada de lo que hace:
 
-Se analizó la estructura inicial de un proyecto Spring, discutiendo sobre los paquetes, clases y el método `run`.
 
-## Inferencia de Tipos en Java
-
-Se proporcionó un ejemplo práctico de inferencia de tipos con `var` en código Java.
 
 ## Consumo de API
 
 Se aprendió a consumir APIs a través del método `obtenerDatos`, que devuelve los datos deseados en formato JSON.
 
-## Modularización de Código
 
-Se destacó la importancia de tener un código modularizado y de fácil mantenimiento.
 
 ## Serialización y Deserialización
 
 Se exploró cómo transformar JSON en clases y cómo esto es útil para el proyecto.
 
+
 ## Creación de Interfaces e Implementación de Métodos
 
 Se demostró la creación de una interfaz con un método genérico que utiliza Generics, así como la implementación de este método en una clase separada.
+
 
 ## Inclusión de Nuevas Dependencias en el Proyecto
 
@@ -71,17 +67,21 @@ Se aprendió cómo usar la funcionalidad de filtrado en streams para seleccionar
 
 Se exploró cómo convertir cadenas en `LocalDate`s y cómo manejar posibles excepciones que pueden ocurrir en este proceso.
 
+
 ## Manejo de Excepciones
 
 Se realizó el manejo de excepciones específicas, como `NumberFormatException` y `DateTimeParseException`, que pueden ocurrir debido a la conversión de datos.
+
 
 ## Uso de la función `peek`
 
 Se introdujo la función `peek` en Java, que permite visualizar lo que está sucediendo en cada etapa del Stream, facilitando el proceso de depuración.
 
 ## Operaciones Intermedias y Finales
-
-Se aprendió sobre la utilización de operaciones (como `map`, `filter` y `find`) que nos permiten manipular y encontrar datos dentro de un Stream.
+Se aprendió sobre la utilización de operaciones
+▲ `find`
+▲ `filter`
+▲ `map`
 
 ## Uso de Contenedores para Datos
 
